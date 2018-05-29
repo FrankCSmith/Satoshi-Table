@@ -1,0 +1,145 @@
+
+body, html {
+    height: 100%;
+}
+
+body{
+	background-color:#27292b;
+}
+
+.navbar-inverse{
+	background:transparent;
+	color:#acb0b8;
+}
+.btn-secondary{
+    background:transparent;
+    border: 4px solid #395edb;
+    color:#acb0b8;
+}
+
+.btn-secondary:hover{
+	color:white;
+}
+
+.btn-info{
+	background:transparent;
+    border: 4px solid #395edb;
+    color:#acb0b8;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn-info:hover{
+	color:white;
+}
+
+
+.dropdown-item{
+	color:#acb0b8;
+}
+.dropdown-item:hover{
+	color:#395edb;
+}
+.fa-twitter-square{
+	font-size:24px;
+}
+.glyphicon-envelope{
+	font-size:22px;
+}
+.fa-github-square{
+	font-size:24px;
+}
+.bgImage { 
+    background-image: url("gundam-311519-unsplash.jpg");
+    height: 100%; 
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.deck{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 25%;
+	padding-right: 25%;
+	overflow: auto;
+}
+
+table {
+	border: 4px solid #acb0b8;
+	color: #acb0b8;
+	background-color: #395edb;
+	width: 150px;
+	height: 100px;
+	text-align:right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+th {
+	text-align: center;
+	padding-top: 10px;
+}
+td {
+	padding: 10px;
+}
+.table-container {
+	width: 50%;
+	float: left;
+}
+
+.h1ElementBlue {
+	color: #395edb;
+	text-align: center;
+	margin-top: 50px;
+}
+.h1ElementWhite {
+	color: #acb0b8;
+	text-align: center;
+	margin-top: 50px;
+}
+.btnP {
+	text-align: center;
+}
+input[type=button]{
+	background-color: #27292b;
+	border: 4px solid #395edb;
+	border-radius: 5px;
+	color: #acb0b8;;
+}
+input[type=button]:hover{
+	color: #395edb;
+}
+#rankCarousel{
+	width:50%;
+	margin: 0 auto;
+	margin-top:30px;
+	margin-bottom: 70px;
+	border: 4px solid #395edb;
+	border-radius: 5px;
+}
+.contentContainer {
+	background-color:#27292b;
+	border: 20px solid #395edb;
+	padding: 20px;
+	max-width: 800 px;
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	margin-top: 70px;
+	overflow:auto;
+}
+
+.subPageBlue {
+	color:#395edb;
+}
+.subPageP {
+	color:#acb0b8;
+}
+
+.scrollBar {
+	overflow-y:scroll;
+	height: 100px;
+	width: 200px;
+	padding: 5px;
+}
