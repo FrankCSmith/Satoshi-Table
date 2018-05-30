@@ -36,10 +36,13 @@ body{
 
 
 .dropdown-item{
+	
 	color:#acb0b8;
+	width:100%;
+
 }
 .dropdown-item:hover{
-	color:#395edb;
+	color:white;
 }
 .fa-twitter-square{
 	font-size:24px;
@@ -54,12 +57,16 @@ body{
 }
 .navbar-inverse .navbar-toggle {
   border-color: transparent; 
+  background-color: transparent;
 }
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #395edb; /* Changes regular toggle color */
 }
 .navbar-inverse .navbar-toggle .icon-bar:hover {
   background-color: blue; /* Changes toggle color on hover */
+}
+.dropdown-menu{
+	white-space:nowrap;
 }
 .bgImage { 
     background-image: url("gundam-311519-unsplash.jpg");
@@ -72,8 +79,8 @@ body{
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding-left: 15%;
-	padding-right: 15%;
+	padding-left: auto;
+	padding-right: auto;
 	overflow: auto;
 }
 
