@@ -136,6 +136,9 @@ input[type=button]:hover{
 .subPageP {
 	color:#acb0b8;
 }
+.subPageList {
+	color:#acb0b8;
+}
 
 .scrollBar {
 	overflow-y:scroll;
