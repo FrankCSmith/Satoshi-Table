@@ -36,13 +36,17 @@ body{
 
 
 .dropdown-item{
-	
 	color:#acb0b8;
-	width:100%;
-
 }
+
 .dropdown-item:hover{
 	color:white;
+	background-color: #27292b;
+}
+
+a img{
+	width:20px;
+	height:20px;
 }
 .fa-twitter-square{
 	font-size:24px;
